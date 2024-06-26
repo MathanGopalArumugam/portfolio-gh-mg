@@ -1,0 +1,114 @@
+ #Home{
+    height: 820px;
+}
+.main{
+    top: 15%;
+    right: -135%;
+}
+.headings{
+    font-size: 1.7rem;
+}
+/*about*/
+#pic img{
+    width: 300px;
+    height: 175px;
+}
+#info h2{
+    font-size: 1.5rem;
+}
+/*education*/
+#pic1 img{
+    width: 300px;
+    height: 175px;
+}
+#edu h2{
+    font-size: 1.5rem;
+}
+#edu h3{
+    font-size: 1rem;
+}
+/*experience*/
+#pic2 img{
+    width: 300px;
+    height: 175px;
+}
+#exp h2{
+    font-size: 28px;
+}
+#exp h3{
+    font-size: 24px;
+}
+/*skills
+#skills{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.headings{
+    width: 350%;
+}
+.row{
+    display: flex;
+    width: 1100px;
+}
+/*Tools
+#Tools{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.headings{
+    width: 350%;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 1100px;
+}
+/*contact
+Contact{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    width: 350px;
+}
+.heading2{
+    color:blue;
+    align-items: center;
+    justify-content: center;
+    padding-left: 650px;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgb(4, 119, 250), 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .6s;
+}
+.box2:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 15px rgb(4, 119, 250);
+}
+.box2 a{
+    text-decoration: none;
+}
